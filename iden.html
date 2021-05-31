@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ecp SignUp</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body> 
+	 <div class="container">
+    <div class="reg-box">
+      <div class="row">
+        <div class="col-md-6" login-right>
+          <h2>Identity</h2>
+          <form  action="validation.php" method="post">
+            <div class="form-group">
+              <label>Identification</label>
+              <input type="text" name="user_id" class="form-control" placeholder="Enter National or Alien ID or Passport Number" required>
+              </div>
+              <div class="form-group">
+                <label>First Name</label>
+                <input type="text" name="First Name" class="form-control" placeholder="Enter First Name" required>
+                </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" name="Last Name" class="form-control" placeholder="Enter Last Name" required>
+              </div>
+              <div class="form-group">
+                <label>Mobile Number</label>
+                <input type="text" name="Mobile Number" class="form-control" placeholder="Enter Mobile Number"required>
+                </div>
+                <div class="form-group">
+                  <label>E-mail Address</label>
+                  <input type="email" name="email" class="form-control" placeholder="Enter E-mail Address" required>
+                  </div>
+                  <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="Password" class="form-control" placeholder="Enter Password" required>
+                    </div>
+              <div class="form-group">
+                <label>Confirm Password</label>
+                <input type="password" name="Password" class="form-control" placeholder="Confirm Password" required>
+                </div>
+              <button type="submit" class="btn btn-primary">Next</button>
+            </form>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
